@@ -1,4 +1,4 @@
-export default function NotFound() {
+ export default function NotFound() {
   return (
     <main
       style={{
@@ -14,15 +14,23 @@ export default function NotFound() {
         style={{
           fontSize: "3rem",
           fontWeight: "bold",
-          color: "#dc2626", // red
+          color: "#dc2626",
           marginBottom: "1rem",
         }}
       >
         ⚠️ 404 - Page Not Found
       </h1>
-      <p style={{ fontSize: "1.25rem", color: "#374151", textAlign: "center" }}>
-        Oops! The page you’re looking for doesn’t exist.  
+
+      <p
+        style={{
+          fontSize: "1.25rem",
+          color: "#374151",
+          textAlign: "center",
+        }}
+      >
+        Oops! The page you’re looking for doesn’t exist.
       </p>
+
       <a
         href="/"
         style={{
