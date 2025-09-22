@@ -28,7 +28,7 @@
           textAlign: "center",
         }}
       >
-        Oops! The page you’re looking for doesn’t exist.
+        Oops! This page doesn’t exist.
       </p>
 
       <a
